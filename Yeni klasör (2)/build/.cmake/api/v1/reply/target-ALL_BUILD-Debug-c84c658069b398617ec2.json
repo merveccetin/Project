@@ -1,0 +1,54 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "math::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "CProject::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "CProjectTests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "gmock::@e28222c35ebf3395b8bb"
+		},
+		{
+			"id" : "gmock_main::@e28222c35ebf3395b8bb"
+		},
+		{
+			"id" : "gtest::@e42a9acd69d9c101e117"
+		},
+		{
+			"id" : "gtest_main::@e42a9acd69d9c101e117"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

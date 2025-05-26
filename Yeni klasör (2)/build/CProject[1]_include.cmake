@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/merve/Desktop/Yeni klasör (2)/build/CProject[1]_tests.cmake")
+  include("C:/Users/merve/Desktop/Yeni klasör (2)/build/CProject[1]_tests.cmake")
+else()
+  add_test(CProject_NOT_BUILT CProject_NOT_BUILT)
+endif()

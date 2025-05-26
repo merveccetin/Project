@@ -1,0 +1,5 @@
+add_test([=[MyCodeTest.ToplamaDogruCalisir]=]  [==[C:/Users/merve/Desktop/Yeni klasör (2)/build/Debug/CProjectTests.exe]==] [==[--gtest_filter=MyCodeTest.ToplamaDogruCalisir]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MyCodeTest.ToplamaDogruCalisir]=]  PROPERTIES WORKING_DIRECTORY [==[C:/Users/merve/Desktop/Yeni klasör (2)/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[MyCodeTest.Cikarma]=]  [==[C:/Users/merve/Desktop/Yeni klasör (2)/build/Debug/CProjectTests.exe]==] [==[--gtest_filter=MyCodeTest.Cikarma]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MyCodeTest.Cikarma]=]  PROPERTIES WORKING_DIRECTORY [==[C:/Users/merve/Desktop/Yeni klasör (2)/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  CProjectTests_TESTS MyCodeTest.ToplamaDogruCalisir MyCodeTest.Cikarma)

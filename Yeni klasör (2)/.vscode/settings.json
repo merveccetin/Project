@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "atomic": "c",
+        "bit": "c",
+        "charconv": "c",
+        "cstdint": "c",
+        "format": "c",
+        "algorithm": "c",
+        "xstring": "c",
+        "xutility": "c",
+        "stdint.h": "c",
+        "math.h": "c",
+        "deneme.h": "c"
+    }
+}
